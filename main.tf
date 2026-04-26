@@ -4,6 +4,8 @@ provider "aws" {
 
 module "terraform-aws-s3-webapp" {
   source  = "app.terraform.io/Zenin/terraform-aws-s3-webapp/aws"
+  name    = var.name
+  region  = var.region
+  prefix  = var.prefix
   version = "1.0.0"
-  # insert required variables here
 }
