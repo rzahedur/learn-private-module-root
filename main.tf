@@ -7,8 +7,3 @@ module "terraform-aws-s3-webapp" {
   version = "1.0.0"
   # insert required variables here
 }
-
-credentials "app.terraform.io" {
-  # valid user API token
-  token = "xxxxxx.atlasv1.zzzzzzzzzzzzz"
-}
